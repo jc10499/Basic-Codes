@@ -1,0 +1,9 @@
+x=int(input("Enter the base value: "))
+y=int(input("Enter the power value: "))
+def powerFunction(x,y):
+    res=1
+    for i in range(0,y):
+        res=res*x
+    print("Answer is: "+str(res))
+
+powerFunction(x,y)
