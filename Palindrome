@@ -1,0 +1,13 @@
+#getting an input
+n=int(input("Enter a number: "))
+r=0
+x=0
+temp=n
+while(n>0):
+    r=n%10
+    x=x*10+r
+    n=n//10
+if temp==x:
+    print("Number is a palindrome")
+else:
+    print("Number is not a palindrome")
