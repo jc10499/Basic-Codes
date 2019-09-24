@@ -1,0 +1,12 @@
+n=int(input("enter the number: "))
+
+def rec(n):
+    if n==0:
+        return 1
+    elif n==1:
+        return 1
+    else:
+        return n*rec(n-1)
+
+x=rec(n)
+print(x)
