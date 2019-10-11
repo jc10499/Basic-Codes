@@ -1,0 +1,13 @@
+def isArmstrong(n):
+    temp=n
+    r=0
+    while(n>0):
+        x=n%10
+        r=r+(x*x*x)
+        n=n//10
+    if r==temp:
+        print("The given number is an Armstrong number")
+    else:
+        print("The given number is not an Armstrong number")
+
+isArmstrong(1536)  
